@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: pink;
+}
+
+.encabezado{
+    position: relative;
+    height: 100px;
+    background-color: green;
+    
+    
+}
+
+.contenido{
+    position: relative;
+    top: 3%;
+    height: 60%;
+    width: 80%;
+    border: solid black 2px;
+    left: 15%;
+    background-color: white;
+}
+
+ #caja1{
+    border: solid black 2px;
+    position: relative;
+    width: 45%;
+    height: 10%;
+    left: 3%;
+    top: 8%;
+    background-color: red;
+
+
+ }
+
+ #caja2{
+     border: solid black 2px;
+     position: relative;
+     width: 45%;
+     height: 70%;
+     left: 3%;
+     top: 10%;
+     background-color: yellow;
+ 
+
+ }
+
+ #caja3{
+    border: solid black 2px;
+    position: relative;
+    width: 45%;
+    height: 70%;
+    left: 52%;
+    top: -72%;
+    background-color: blue;
+
+
+}
+
+.menu{
+    position: relative;
+    border: solid black 2px;
+    width: 5%;
+    height: 100%;
+    top: -60%;
+    background-color: skyblue;
+    transition: all 0.5s;
+    
+}
+
+/* Parte de las columnas */
+
+#Columna1{
+    border: solid black 2px;
+    height: 10%;
+    width: 100%;
+    background-color: gray;
+    -webkit-transition-duration: 1.4s;
+    transition-duration: 0.4s;
+}
+
+#Columna2{
+    border: solid black 2px;
+    height: 10%;
+    width: 100%;
+    background-color: gray;
+    -webkit-transition-duration: 1.4s;
+    transition-duration: 0.4s;
+    
+}
+
+#Columna3{
+    border: solid black 2px;
+    height: 10%;
+    width: 100%;
+    background-color: gray;
+    -webkit-transition-duration: 1.4s;
+    transition-duration: 0.4s;
+}
+
+#Columna4{
+    border: solid black 2px;
+    height: 10%;
+    width: 100%;
+    background-color: gray;
+    -webkit-transition-duration: 1.4s;
+    transition-duration: 0.4s;
+}
+
+#Columna5{
+    border: solid black 2px;
+    height: 10%;
+    width: 100%;
+    background-color: gray;
+    -webkit-transition-duration: 1.4s;
+    transition-duration: 0.4s;
+}
+
+#Columna6{
+    border: solid black 2px;
+    height: 10%;
+    width: 100%;
+    background-color: gray;
+    -webkit-transition-duration: 1.4s;
+    transition-duration: 0.4s;
+}
+
+/* Parte del Hover */
+
+#Columna1:hover{
+    color: white;
+    background-color: white;
+}
+
+#Columna2:hover{
+    color: white;
+    background-color: white;
+}
+
+#Columna3:hover{
+    color: white;
+    background-color: white;
+}
+
+#Columna4:hover{
+    color: white;
+    background-color: white;
+}
+
+#Columna5:hover{
+    color: white;
+    background-color: white;
+}
+
+#Columna6:hover{
+    color: white;
+    background-color: white;
+}
+
+.menu:hover{
+    width: 12%;
+}
